@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIMULASI</title>
+	<link rel="stylesheet" type="text/css" href="style_simulasi_2.css">
+</head>
+<nav>
+	<div class="header"><h1>Simulasi Credit</h1></div>
+	<ul>
+		<li><a href="simulasi.php">SIMULASI</a></li>
+		<li><a href="login.php">LOGIN</a></li>
+		<li><a href="sign_in.php">SIGN IN</a></li>
+		<li><a href="index.php">ABOUT US</a></li>
+	</ul>
+</nav>
+<div class="isi">
+	<div class="sidebar">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div class='content'>
+		<div class="text">
+			<h2>Simulasi Kredit</h2>
+			<p>Berikut adalah simulasi kredit umum dari berbagai macam pinjaman<br>Silahkan isi tabel di bawah apabila ingin memulai simulasi </p>
+		</div>
+		<div class="wrap">
+			<form action="" method="POST">
+				<ul>
+					<li><label>Jumlah Pinjaman</label></li>
+					<li><input type="text" name="pokok" placeholder="0"></li>
+					<li><label>Jangka Waktu (bulan)</label></li>
+					<li><input type="text" name="waktu" placeholder="0"></li>
+					<li><label>Bunga/tahun</label></li>
+					<li><input type="text" name="bunga" placeholder="0"></li>
+					<li><label>Tanggal Mulai</label></li>
+					<li><input type="date" name="hari" placeholder="0"></li>
+				</ul>
+				<button type="submit" name="kalkulasi">Hitung</button>
+			</form>
+		</div>
+		<table  border="1" cellpadding="0" cellspacing="0" >
+			<caption>Tabel Simulasi credit</caption>
+			<tr>
+				<th>Periode</th>
+				<th>Angsuran Bunga</th>
+				<th>Angsuran Pokok</th>
+				<th>Total Angsuran</th>
+				<th>Sisa Pinjaman</th>
+			</tr>
+			<tr>
+				<td>1-Jan-2020</td>
+				<td>Rp200.000</td>
+				<td>Rp300.000</td>
+				<td>Rp500.000</td>
+				<td>Rp1.950.000</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<footer>
+        © Simulasi, Inc. All rights reserved.
+</footer>
+</body>
+</html>

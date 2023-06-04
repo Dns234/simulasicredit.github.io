@@ -1,0 +1,192 @@
+* {
+
+	margin: 0;
+	padding:0;
+}
+
+.welcome{
+	background-attachment: fixed;
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	/*background-color: silver;*/
+	background-image: url(img/back.jpg);
+}
+
+.teks {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 35%;
+    left: -30%;
+    text-align: center;
+    color: black;
+    transform: scale(1);
+}
+nav{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	top: 0;
+}
+
+nav ul {
+	list-style: none;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-top: 5px;
+	width: 140px;
+	text-align: center;
+	margin: auto;
+}
+.header {
+	top: 0;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+nav ul li a{
+	padding-top: 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	transition: .5s;
+}
+
+nav ul li:hover a{
+	background-color: grey;
+	padding: 1em 2em;
+	padding-bottom: 30px;
+	color: white;
+}
+
+
+.bio {
+	text-align: center;
+}
+
+.aldi, .dany, .sawe, .reza{
+	display: inline-block;
+	padding: 30px;
+}
+
+.bio p{
+	font-size: 1.5em;
+}
+
+.icon_name{
+	max-width: 15em;
+}
+
+
+
+.icon{
+	max-width: 17em;
+}
+.icon_group{
+	max-width: 24em;
+}
+.about_us, .kelas, .tujuan {
+	text-align: center;
+}
+
+.kelas{
+	width: 50%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.tujuan{
+	width: 50%;
+	float: right;
+}
+
+
+
+.teks_welcome {
+	font-size: 1.5em;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.regist {
+	clear: both;
+	width: 100%;
+	/*background-color: silver;*/
+	background-image: url(img/back.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	position: relative;
+	background-size: cover;
+}
+
+.teks_regist{
+	position: relative;
+	left: -20%;
+	padding-top: 170px;
+	margin: auto;
+	font-size: 1.5em;
+	width: 50%;
+	text-align: center;
+}
+
+.regist ul {
+	position: relative;
+	left: -22%;
+	list-style: none;
+	text-align: center;
+}
+
+.regist ul li{
+	display: inline-block;
+	margin-top: 50px;
+	width: 140px;
+	text-align: center;
+
+}
+
+.regist ul li a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+}
+
+
+.masuk {
+	border-radius: 10px;
+	border: solid 1px black;
+	margin-left: 30px;
+	transition: .3s all;
+}
+
+.daftar{
+	border-radius: 10px;
+	color: white;
+	background-color: #135589;
+	border: solid 1px #135589;
+	margin-left: 30px;
+	transition: .3s all;
+}
+.masuk:hover {
+	background-color: white;
+	background-color: #135589;
+	border-radius: 10px;
+}
+
+.daftar:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+}
